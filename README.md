@@ -9,5 +9,5 @@ O controle das tarefas desse projeto será realizado no GuiHub
 
 :package: Nova funcionalidade
 :up: Atualização
-:beatle: Correção de bug
+:beetle: Correção de bug
 :checkered_flag: Realease
