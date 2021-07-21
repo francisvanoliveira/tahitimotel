@@ -8,7 +8,7 @@ Foi solicitado que fosse desenvolvido um site para divulgar o empreendimento, co
 
 ## Tarefas
 
-O controle das tarefas desse projeto será realizado no GuiHub
+O controle das tarefas desse projeto será realizado no GitHub
 
 ## ✒️ Autor
 
@@ -25,7 +25,7 @@ Projeto Site Tahiti Motel desenvolvido por:
 
 ## ⚙️ Softwares utilizados
 
-* Ubuntu no WLS
+* Ubuntu no WSL
 * VS Code
 
 ## Ícones
