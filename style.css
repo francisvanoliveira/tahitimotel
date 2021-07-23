@@ -624,3 +624,89 @@ footer {
     border-radius: .3rem;
     box-shadow: 0 0.1rem 0.6rem #000000;
 }
+
+/*PAGINA CARDÁPIO*/
+header.bgcardapio{
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper-cardapio {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.item{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	grid-column-gap:30px;
+	align-items:center;
+	margin:20px 0;
+}
+
+.item.inverse{
+	text-align:right;
+}
+
+.item p{
+	font-family: var(--font-secundary);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.item .pics img{
+	width: 50%;
+	border-radius:30px;
+}
+
+.item h2{
+	font-size:35px;
+	font-family: var(--font-primary);
+	font-weight: 400;
+	color:#292929;
+	position:relative;
+	padding-left:0px;
+}
+
+.item h2::after{
+	content:"";
+	display:inline-block;
+	height:5px;
+	width:100%;
+	border-bottom: solid 3px #6a3093;
+	vertical-align:middle;
+	position:absolute;
+	right:0;
+	top:calc(50% - 3.5px);
+	z-index:1;
+}
+
+.item h2 span{
+	background:#fff;
+	z-index:2;
+	position:relative;
+	display:inline-block;
+	padding:0 20px;
+}
+
+#cardapio .item ul{
+	list-style-position:inside;
+	padding:0 20px;
+}
+#cardapio .item ul li{
+	font-size:15px;
+    color: #808080;
+    font-weight:bold;
+    padding:5px;
+}
+
+.cardapio{
+	width:100%;
+	max-width:1300px;
+	margin:0 auto;
+}
+/*FIM PAGINA CARDÁPIO*/
