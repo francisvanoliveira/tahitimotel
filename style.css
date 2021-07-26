@@ -771,3 +771,17 @@ header.bgcardapio{
 }
 /*FIM PAGINA CARDÁPIO*/
 
+/*PAGINA SUITE*/
+.lista-suites{
+    margin-top: 94px;
+    width: 80%;
+}
+
+.iten-suite {
+    justify-content: space-evenly;
+    display: inline-flex;
+    margin-bottom: 30px;
+    border: solid 0.5px #3f2658;
+}
+
+/*FIM PAGINA SUITE*/
