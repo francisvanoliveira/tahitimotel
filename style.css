@@ -1,4 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,300;1,300&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
 
@@ -13,6 +12,10 @@
     --font-primary: "Architects Daughter", serif;
     --font-secundary: "Josefin Slab", serif;
     --font-action: "Open Sans", serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .icone img {
@@ -363,11 +366,22 @@ header {
     opacity: 1;
     visibility: visible;
 }
-
+/*CAROUSEL SUÍTES*/
 .carousel {
     width: 70%;
     margin: 0 auto;
 }
+
+.slick-prev, .slick-next {
+    background-color: black;
+    border-radius: 4px;
+}
+
+.slick-next:hover, .slick-prev:hover {
+    background-color: #6a3093;
+    color: white;
+}
+/*FIM CAROUSEL SUÍTES*/
 
 section.gostou { /*efeito paralax*/
     padding: 50px 10px;
@@ -651,8 +665,8 @@ footer {
 
 #link-topo {
     position: fixed;
-    right: 3rem;
-    bottom: 8rem;
+    right: 8rem;
+    bottom: 3rem;
     width: 3rem;
     height: 3rem;
     background: #6a3093;
@@ -678,6 +692,18 @@ footer {
     text-align:center;
     font-size:30px;
     box-shadow: 0 0.1rem 0.6rem #000000;
+    animation: pulsar 0.8s ease-out 1s infinite alternate none running;
+}
+
+@keyframes pulsar {
+    0% {
+        height: 60px;
+        width: 60px;
+    }
+    100% {
+        height: 63px;
+        width: 63px;
+    }
 }
 
 #link-whatsapp>i {
