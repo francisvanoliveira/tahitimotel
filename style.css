@@ -775,13 +775,36 @@ header.bgcardapio{
 .lista-suites{
     margin-top: 94px;
     width: 80%;
+    height: 100%;
 }
-
 .iten-suite {
     justify-content: space-evenly;
     display: inline-flex;
     margin-bottom: 30px;
     border: solid 0.5px #3f2658;
+    height: 8%;
+}
+
+.foto img {
+    width: 500px;
+    height: 500px;
+}
+
+.info {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.info h2{
+    font-family: var(--font-primary);
+    font-size: 2rem;
+}
+
+.info p{
+    font-family: var(--font-action);
+    font-size: 1.2rem;
 }
 
 /*FIM PAGINA SUITE*/
