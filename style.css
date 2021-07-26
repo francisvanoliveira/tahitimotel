@@ -256,7 +256,7 @@ header {
 }
 
 .card-img-wrapper {
-    width: 100%;
+    width: 90%;
     height: 100%;
     background-color: #262626;
     border-radius: .5rem;
@@ -307,6 +307,7 @@ header {
     margin-bottom: 2rem;
 }
 
+/* BOTÕES*/
 .btn {
     background: #6a3093;
     background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
@@ -317,7 +318,23 @@ header {
     border: none;
     box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
-  
+
+.bton {
+    font-family: var(--font-action);
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to left, #a044ff, #6a3093);;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* FIM BOTÕES*/
+
 .card-info button {
     width: 8rem;
     height: 2.5rem;
@@ -327,6 +344,11 @@ header {
     bottom: 2rem;
     opacity: 1;
     visibility: visible;
+}
+
+.carousel {
+    width: 70%;
+    margin: 0 auto;
 }
 
 section.gostou { /*efeito paralax*/
@@ -711,3 +733,4 @@ header.bgcardapio{
 	margin:0 auto;
 }
 /*FIM PAGINA CARDÁPIO*/
+
