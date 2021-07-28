@@ -24,9 +24,9 @@ O controle das tarefas desse projeto será realizado no GitHub
 Projeto Site Tahiti Motel desenvolvido por:
 
 * Francisvan Oliveira - Desenvolvedor
-    - Instagram @francisvan_oliveira
+    - Instagram <a href="https://www.instagram.com/francisvan_oliveira/" target="_blank">@francisvan_oliveira</a>
 * GR7 Tecnologia
-    - Instagram @gr7tecnologia
+    - Instagram <a href="https://www.instagram.com/gr7tecnologia/" target="_blank">@gr7tecnologia</a>
     - Website <a href="https://www.gr7tecnologia.com.br/" target="_blank">gr7tecnologia.com.br</a>
 
 ## 🛠️ Tecnologia
