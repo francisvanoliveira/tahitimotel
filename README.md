@@ -7,9 +7,9 @@ Site Tahiti Motel Manaus.
 - [x] Protótipo
 - [x] Apresentação
 - [x] Projeto aprovado
-- [] Desenvolvimento
-- [] Apresentação final
-- [] Entregue
+- [ ] Desenvolvimento
+- [ ] Apresentação final
+- [ ] Entregue
 
 ## 🚀 Objetivo
 
