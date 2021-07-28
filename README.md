@@ -3,13 +3,13 @@
 :construction: Projeto em construção... :construction:
 Site Tahiti Motel Manaus.
 
-[x] Projeto inicial
-[x] Protótipo
-[x] Apresentação
-[x] Projeto aprovado
-[] Desenvolvimento
-[] Apresentação final
-[] Entregue
+- [x] Projeto inicial
+- [x] Protótipo
+- [x] Apresentação
+- [x] Projeto aprovado
+- [] Desenvolvimento
+- [] Apresentação final
+- [] Entregue
 
 ## 🚀 Objetivo
 
