@@ -27,7 +27,7 @@ Projeto Site Tahiti Motel desenvolvido por:
     - Instagram @francisvan_oliveira
 * GR7 Tecnologia
     - Instagram @gr7tecnologia
-    - Website gr7tecnologia.com.br
+    - Website <a href="https://www.gr7tecnologia.com.br/" target="_blank">gr7tecnologia.com.br</a>
 
 ## 🛠️ Tecnologia
 
