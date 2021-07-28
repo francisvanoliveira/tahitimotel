@@ -6,7 +6,7 @@ Site Tahiti Motel Manaus.
 - [x] Projeto inicial (15/05/21)
     - Idealização do site.
 - [x] Protótipo (15/05/21)
-    - Apresentação do modelo e estilo do site. Aguardando reunião.
+    - Modelo e estilo do site. Aguardando reunião.
 - [x] Apresentação (26/07/21)
     - Renuão de apresentação do protótipo.
 - [x] Projeto aprovado (27/07/21)
