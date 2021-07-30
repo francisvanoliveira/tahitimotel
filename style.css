@@ -245,22 +245,27 @@ header {
 }
 
 .sessao-suite {
+    /*display: block;
+    align-items: center;
+    justify-content: center;*/
+    margin-left: 2rem; /*teste*/
     margin-bottom: 3rem;
 }
 
 .suites {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 1rem; /*teste*/
 }
 
 .card {
-    width: 18rem;
+    width: 30rem;
     height: 25rem;
     position: relative;
 }
 
 .card-img-wrapper {
-    width: 90%;
+    width: 95%;
     height: 100%;
     background-color: #262626;
     border-radius: .5rem;
