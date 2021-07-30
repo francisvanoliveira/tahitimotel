@@ -11,7 +11,8 @@ Site Tahiti Motel Manaus.
     - Renuão de apresentação do protótipo.
 - [x] Projeto aprovado (27/07/21)
     - Aprovação e liberação para prossegir com o projeto.
-- [ ] Desenvolvimento 
+- [x] Desenvolvimento (30/07/21)
+    - Iniciado o desenvolvimento da versão final
 - [ ] Apresentação final
 - [ ] Entregue
 
