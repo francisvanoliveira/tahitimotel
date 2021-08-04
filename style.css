@@ -254,7 +254,7 @@ header {
 
 .suites {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 1rem; /*teste*/
 }
 
