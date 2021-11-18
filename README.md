@@ -30,6 +30,7 @@ Projeto Site Tahiti Motel desenvolvido por:
 
 * Francisvan Oliveira - Desenvolvedor
     - Instagram <a href="https://www.instagram.com/francisvan_oliveira/" target="_blank">@francisvan_oliveira</a>
+    - Website <a href="https://francisvanoliveira.com.br/" target="_blank">francisvanoliveira.com.br</a>
 * GR7 Tecnologia
     - Instagram <a href="https://www.instagram.com/gr7tecnologia/" target="_blank">@gr7tecnologia</a>
     - Website <a href="https://www.gr7tecnologia.com.br/" target="_blank">gr7tecnologia.com.br</a>
