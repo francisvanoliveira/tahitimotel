@@ -1,366 +1,291 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css"/> 
-        <link rel="stylesheet" href="style.css" />
-        <title>Tahiti</title>
-    </head>
-    <body>
-        
-        <div class="container">
+<html lang="pt-br">
 
-            <div class="icone">
-                <img src="imagens/logo.png" alt="">
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tahiti Motel</title>
+</head>
 
-            <div class="hamburguer">
-                <div class="line" id="line1"></div>
-                <div class="line" id="line2"></div>
-                <div class="line" id="line3"></div>
-                <span>fechar</span>
-            </div>
-
-            <header id="home">
-                <div class="img-wrapper">
-                    <img src="imagens/bg.jpg" alt="">
-                </div>
-                <div class="banner">
-                    <h1>Venha conhecer novas experiências</h1>
-                    <p>Tahiti Motel</p>
-                    <button>Conheça as Suítes</button>
-                </div>
-            </header>
-
-            <aside class="sidebar">
-                <nav>
-                    <ul class="menu">
-                        <li class="menu-item"><a href="" class="menu-link">Home</a></li>
-                        <li class="menu-item"><a href="#suites" class="menu-link">Suítes</a></li>
-                        <li class="menu-item"><a href="#servicos" class="menu-link">Serviços</a></li>
-                        <li class="menu-item"><a href="cardapio.html" class="menu-link">Cardápio</a></li>
-                        <li class="menu-item"><a href="#localizacao" class="menu-link">Localização</a></li>
-                        <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
-                        <!--<li class="menu-item"><a href="" class="menu-link">Reserva</a></li>-->
-                    </ul>
-                </nav>
-
-                <div class="social-media">
-                    <a href="https://www.instagram.com/tahitimotel/" target="_blank"><i class="fab fa-instagram"></i>/tahitimotel</a>
-                </div>            
-            </aside>
-
-            <section class="sessao-suite" id="suites">
-
-                <div class="sessao-header">
-                    <h1>Suítes</h1>
-                </div>
-                <div class="suites">
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/suites/bora_bora.jpg" alt="imagem do projeto ToDo" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Bora-bora</h2>
-                            <h3>3 Horas R$ 330,00 Com Piscina</h3>
-                            <p>Piscina, Banheira na área interna, Tantra chair e Pole dance</p>
-                            <!--<button class="btn">Saiba Mais</button>-->
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/suites/Manihi_fetiche.jpg" alt="imagem do projeto Maratona" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Manini Fetiche</h2>
-                            <h3>3 Horas R$ 200,00 Com Hidro</h3>
-                            <p>Suíte temática 50 Tons de Cinza</p>
-                            <!--<button class="btn">Saiba Mais</button>-->
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/suites/Manihi.jpg" alt="imagem do projeto Casa Bela" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Manini</h2>
-                            <h3>3 Horas R$ 180,00 Com Hidro</h3>
-                            <p>Banheira na área externa, Tantra chair, Futtom</p>
-                            <!--<button class="btn">Saiba Mais</button>-->
-                        </div>
-                    </div>
-                </div>
-                <div class="suites">
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/suites/moorea.jpg" alt="imagem do projeto ToDo" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Moorea</h2>
-                            <h3>3 Horas R$ 120,00</h3>
-                            <p>Solarium</p>
-                            <!--<button class="btn">Saiba Mais</button>-->
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/suites/niau_fetiche.jpg" alt="imagem do projeto Maratona" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Niau Fetiche</h2>
-                            <h3>3 Horas R$ 390,00 Com Piscina</h3>
-                            <p>Suíte temática 50 Tons de Cinza, Suíte duplex, Pisicna, Boate, Jacuzzi</p>
-                            <!--<button class="btn">Saiba Mais</button>-->
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/suites/niau.jpg" alt="imagem do projeto Casa Bela" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Niau</h2>
-                            <h3>3 Horas R$ 350,00 Com Piscina</h3>
-                            <p>Suíte duplex, Piscina, Boate, Jacuzzi, Pole dance</p>
-                            <!--<button class="btn">Saiba Mais</button>-->
-                        </div>
-                    </div>
-                </div>
-                <div class="suites">
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/suites/papeete.jpg" alt="imagem do projeto ToDo" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Papeete</h2>
-                            <h3>3 Horas R$ 160,00 Com Hidro</h3>
-                            <p>Banheira na área interna, Tantra chair, Futton</p>
-                            <!--<button class="btn">Saiba Mais</button>-->
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/suites/tahiti.jpg" alt="imagem do projeto Maratona" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Tahiti</h2>
-                            <h3>3 Horas R$ 450,00 Com Piscina</h3>
-                            <p>Piscina, SPA sauna, Boate, Sala de TV e 2 quartos</p>
-                            <!--<button class="btn">Saiba Mais</button>-->
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/suites/tikehau.jpg" alt="imagem do projeto Casa Bela" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Tikehau</h2>
-                            <h3>3 Horas R$ 95,00</h3>
-                            <p>Mine-solarium</p>
-                            <!--<button class="btn">Saiba Mais</button>-->
-                        </div>
-                    </div>
-                </div>
-                <!--<div class="sessao-header">
-                    <button class="bton">Conheça as Suítes</button>
-                    <a class="linksbtn" href="cardapio.html">Conheça as Suítes</a>
-                </div>-->
-            </section>
-
-            <section class="gostou">
-                <h2>Gostou?</h2>
-                <h3>Nos envie uma mensagen e veja as condições</h3>
-                <div class="links">
-                    <a href="https://api.whatsapp.com/send?phone=5592981756235" target="_blank">WhatsApp</a>
-                </div>
-            </section>
-
-            <section class="sessao-servicos" id="servicos">
-                <div class="sessao-header">
-                    <h1>Nossos Serviços</h1>
-                </div>
-                <div class="servicos">
-                    <div class="servico">
-                        <div class="servico-header">
-                            <i class="fa fa-wifi"></i>
-                            <h3>Wifi e SmarTV</h3>
-                        </div>
-                            <div class="servico-text">
-                                <p>Internet para seus dispositivos e na TV. **Não oferecemos contas Netflix, Amazonprim e Globoplay.</p>
-                            </div>
-                    </div>
-                    <div class="servico">
-                        <div class="servico-header">
-                            <i class="fa fa-bolt"></i>
-                            <h3>Suítes Temáticas</h3>
-                        </div>
-                        <div class="servico-text">
-                            <p>á conhecido em Manaus o Tahiti Motel oference suites temáticas de acordo com as atuais fantasias.</p>
-                        </div>
-                    </div>
-                    <div class="servico">
-                        <div class="servico-header">
-                            <i class="fa fa-heart"></i>
-                            <h3>Objetos Eróticos</h3>
-                        </div>
-                        <div class="servico-text">
-                            <p>Brinquedos eróticos para apimentar a sua diversão. **A utlização dos objetos é cobrado fora a parte.</p>
-                        </div>
-                    </div>
-                    <div class="servico">
-                        <div class="servico-header">
-                            <i class="fas fa-utensils"></i>
-                            <h3>Cozinha</h3>
-                        </div>
-                        <div class="servico-text">
-                            <p>Deliciosas opções de pratos, bebidas e drinks. Cozinha 24 horas.</p>
-                        </div>
-                    </div>
-                    <div class="servico">
-                        <div class="servico-header">
-                            <i class="fas fa-cocktail"></i>
-                            <h3>Bebidas e Drinks</h3>
-                        </div>
-                        <div class="servico-text">
-                            <p>Uma carta completa de bebidas, vinhos e drinks para apimentar o seu momento especial.</p>
-                        </div>
-                    </div>
-                    <div class="servico">
-                        <div class="servico-header">
-                            <i class="fa fa-gift"></i>
-                            <h3>Decoração</h3>
-                        </div>
-                        <div class="servico-text">
-                            <p>Em suas datas especiais prepraramos a suite do seu jeito. **Confira condições.</p>
-                        </div>
-                    </div>
-                    <div class="servicos-img-wrapper">
-                        <img src="imagens/logo.png" alt="imagem tahiti">
-                    </div>
-                </div>
-            </section>
-
-            <section class="sessao-suite">
-
-                <div class="sessao-header">
-                    <h1>Cardápio</h1>
-                </div>
-
-                <div class="suites">
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/cardapio/cefemanha.jpg" alt="imagem do projeto ToDo" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Café da Manha</h2>
-                            <h3>Começe bem o seu dia.</h3>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/cardapio/aperitivos.jpg" alt="imagem do projeto Maratona" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Aperitivos</h2>
-                            <h3>Para deixar seus momentos melhores.</h3>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/cardapio/executivo.jpg" alt="imagem do projeto Casa Bela" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Almoço Executivo</h2>
-                            <h3>Segunda a Sexta das 11:00 até as 14:00</h3>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="imagens/cardapio/pratos.jpg" alt="imagem do projeto Casa Bela" />
-                        </div>
-                        <div class="card-info">
-                            <h2>Pratos</h2>
-                            <h3>Deliciosas opções.</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="sessao-header">
-                    <!--<button class="bton" action="">Conheça nosso Cardápio</button>-->
-                    <a class="linksbtn" href="cardapio.html">Conheça nosso Cardápio</a>
-                </div>
-            </section>
-
-            <section class="localizacao" id="localizacao">
-                <div class="sessao-header">
-                    <h1>Localização</h1>
-                </div>                
-                <h3>Venha ao encontro de novas experiências</h3>
-                <iframe class="mapagoogle" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0570013535894!2d-60.078938184650745!3d-3.0794581410806208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1019ade9f12b%3A0xb11f39c7c3ac93a8!2sTahiti%20Motel!5e0!3m2!1spt-BR!2sbr!4v1622051766399!5m2!1spt-BR!2sbr" width="900" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                <h3><i class="fa fa-map-marker"></i> Estrada da Ponta Negra, 4919, Ponta Negra, Manaus-AM 69037-000</h3>
-                <h3><i class="fa fa-phone"></i> Telefone: (92)3030-8080</h3>
-                <h3><i class="fab fa-whatsapp"></i> WhatsApp: (92) 98484-9898</h3>
-                <h3><i class="far fa-envelope"></i> E-mail: contato@tahitimotel.com.br</h3>
-                <div class="sessao-header">
-                    <!--<button class="bton" action="">Conheça nosso Cardápio</button>-->
-                    <a class="btnuber" href="https://m.uber.com/ul/?action=setPickup&client_id=hdW9LTbe060JrtcY0hW0GiRTpm2rTsy-&pickup=my_location&dropoff[formatted_address]=Tahiti%20Motel%20-%20Estr.%20da%20Ponta%20Negra%20-%20Ponta%20Negra%2C%20Manaus%20-%20AM%2C%20Brasil&dropoff[latitude]=-3.079464&dropoff[longitude]=-60.076749">UBER</a>
-                    <a class="btnwaze" href="https://ul.waze.com/ul?place=ChIJK_HprRkQbJIRqJOsw8c5H7E&ll=-3.07946350%2C-60.07674950&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">WAZE</a>
-                </div>
-            </section><!--licalização-->
-
-            <section class="sessao-contato" id="contato">
-                <div class="contato-wrapper">
-                    <div class="contato-left"></div>
-                    <div class="contato-right">
-                        <div class="sessao-header">
-                            <h1>Contato</h1>
-                        </div> 
-                        <form>
-                            <div class="input-group">
-                                <input type="text" class="field" id="nome">
-                                <label for="nome" class="field-label">Nome</label>
-                            </div>
-                            <div class="input-group">
-                                <input type="text" class="field" id="email">
-                                <label for="email" class="field-label">E-mail</label>
-                            </div>
-                            <div class="input-group">
-                                <textarea class="field" id="mensagem"></textarea>
-                                <label for="mensagem" class="field-label">Mensagem</label>
-                            </div>
-                            <button type="submit" class="btn btn-submit">Enviar</button>
-                        </form>
-                    </div>
-                </div>
-            </section>
-
-            <footer>
-                <div class="footer-content">
-                    <p>
-                        Copyright &copy; 2021, Tahiti Motel - Todos os diretos reservados | Desenvolvido por <a href="https://www.gr7tecnologia.com.br/" target="_blank">GR7 Tecnologia</a>
-                    </p>
-                    <p>
-                        
-                    </p>
-                    <div class="social-list">                      
-                            <a href="https://www.instagram.com/tahitimotel/" target="_blank"><i class="fab fa-instagram"></i>/tahitimotel</a>
-                    </div>
-                </div>
-            </footer>
-
-            <a href="#home" id="link-topo">
-                <i class="fas fa-arrow-up"></i>
-            </a>
-
-            <a href="https://api.whatsapp.com/send?phone=5592981756235" target="_blank" id="link-whatsapp">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>Tahiti Motel</h1>
+          </a>
         </div>
-    </body>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
-    <script src="script.js"></script>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Serviços">Serviços</a></li>
+            <li><a href="#projects" data-after="Suítes">Suítes</a></li>
+            <li><a href="#about" data-after="Cardápio">Cardápio</a></li>
+            <li><a href="#contato" data-after="Contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Prazer! <span></span></h1>
+        <h1>Descobrir novas experiências? <span></span></h1>
+        <h1>Tahiti Motel <span></span></h1>
+        <a href="https://api.whatsapp.com/send?phone=5592981756235" target="_blank" type="button" class="cta">Fale Conosco</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serviços</h1>
+        <p>O Tahiti Motel está todo preparado para lhe proporcionar uma estadia de qualidade. Queremos que experimente algo novo e inesquecível, unindo luxo, sofisticação e entretenimento. </p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Wifi e SmarTV</h2>
+          <p>Internet na suites para você usar em seus dispositivos. Todas as nossas TV's são smart com acesso aos principais app de streaming. **Não oferecemos contas Netflix, Amazonprim e Globoplay.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Suítes Temáticas</h2>
+          <p>O Tahiti Motel é conhecido em Manaus por oference suites temáticas que proporciona uma imersão total para suas fantasias.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Objetos Eróticos</h2>
+          <p>Brinquedos eróticos para apimentar a sua diversão. **A utlização dos objetos é cobrado fora a parte, consulte sempre a recepção.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Decoração</h2>
+          <p>Quer fazer aquela surpresa para pessoa amada? Prepraramos a suite de acondordo com seus pedidos. **Fale conosco e confira as condições.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Cozinha</h2>
+          <p>Deliciosas opções, café da manha, lanches, almoco, sopas, pizzas e sobremesas. **Cozinha 24 horas.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Drinks</h2>
+          <p>Uma carta completa de bebidas, vinhos e drinks para deixar ccompleto o seu momento especial.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Suítes</h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Tahiti</h1>
+            <h2>Suíte Premium</h2>
+            <h2>R$ 450,00 3 Horas</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/suites/tahiti.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Niau Fetiche</h1>
+            <h2>Suíte Temática</h2>
+            <h2>R$ 390,00 3 Horas</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/suites/niau_fetiche.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Niau</h1>
+            <h2>Suíte Premium</h2>
+            <h2>R$ 350,00 3 Horas</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/suites/niau.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Bora-Bora</h1>
+            <h2>Suíte Luxo</h2>
+            <h2>R$ 330,00 3 Horas</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/suites/bora-bora.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Manini Fetiche</h1>
+            <h2>Suite Temática</h2>
+            <h2>R$ 200,00 3 Horas</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/suites/manini_fetiche.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Papeete</h1>
+            <h2>Suite Luxo</h2>
+            <h2>R$ 160,00 3 Horas</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/suites/papeete.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Moorea</h1>
+            <h2>Suite Luxo</h2>
+            <h2>R$ 120,00 3 Horas</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/suites/moorea.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Tikehau</h1>
+            <h2>Suite Básica</h2>
+            <h2>R$ 95,00 3 Horas</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/suites/tikehau.jpeg" alt="img">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/cardapio.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">Cardápio</h1>
+        <h2>Conheça nossos pratos e nossa carta de vinhos e drinks</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque
+          repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt
+          exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni!
+          Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt
+          reprehenderit libero enim!</p>
+        <a href="cardapio.pdf" class="cta" target="_blank">Veja Aqui</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contato">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contato</h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <a href="https://api.whatsapp.com/send?phone=5592981756235" target="_blank">
+              <h1>WhatsApp</h1>
+              <h2>+55 92 98175-6235</h2>
+            </a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>E-mail</h1>
+            <h2>contato@tahitimotel.com.br</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Endereço</h1>
+            <h2>Estrada da Ponta Negra</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1>Tahiti Motel</h1>
+      </div>
+      <h2>O local certo para suas aventuras!</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2022 Tahiti Motel - Todos os diretos reservados | Desenvolvido por GR7 Tecnologia</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
 </html>
