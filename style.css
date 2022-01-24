@@ -218,15 +218,15 @@ p {
 }
 /* End Header section */
 
-/* Hero Section */
-#hero {
+/* sessão inicio */
+#inicio {
 	background-image: url(./img/img_home.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
 	z-index: 1;
 }
-#hero::after {
+#inicio::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -237,13 +237,13 @@ p {
 	opacity: 0.7;
 	z-index: -1;
 }
-#hero .hero {
+#inicio .inicio {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
 }
-#hero h1 {
+#inicio h1 {
 	display: block;
 	width: fit-content;
 	font-size: 4rem;
@@ -253,17 +253,17 @@ p {
 	animation: text_reveal 0.5s ease forwards;
 	animation-delay: 1s;
 }
-#hero h1:nth-child(1) {
+#inicio h1:nth-child(1) {
 	animation-delay: 1s;
 }
-#hero h1:nth-child(2) {
+#inicio h1:nth-child(2) {
 	animation-delay: 2s;
 }
-#hero h1:nth-child(3) {
+#inicio h1:nth-child(3) {
 	animation: text_reveal_name 0.5s ease forwards;
 	animation-delay: 3s;
 }
-#hero h1 span {
+#inicio h1 span {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -273,38 +273,38 @@ p {
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
-#hero h1:nth-child(1) span {
+#inicio h1:nth-child(1) span {
 	animation-delay: 0.5s;
 }
-#hero h1:nth-child(2) span {
+#inicio h1:nth-child(2) span {
 	animation-delay: 1.5s;
 }
-#hero h1:nth-child(3) span {
+#inicio h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
 
-/* End Hero Section */
+/* fim sessao inicio */
 
-/* Services Section */
-#services .services {
+/* sessão servicos */
+#servicos .servicos {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#services .service-top {
+#servicos .servicos-topo {
 	max-width: 500px;
 	margin: 0 auto;
 }
-#services .service-bottom {
+#servicos .servicos-bottom {
 	display: flex;
 	/*align-items: center;*/
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-#services .service-item {
+#servicos .servicos-item {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -319,7 +319,7 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-#services .service-item::after {
+#servicos .servicos-item::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -330,40 +330,40 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
-#services .service-bottom .icon {
+#servicos .servicos-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-#services .service-item h2 {
+#servicos .servicos-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#services .service-item p {
+#servicos .servicos-item p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
+/* fim sessão servicos */
 
-/* Projects section */
-#projects .projects {
+/* sessão suites */
+#suites .suites {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#projects .projects-header h1 {
+#suites .suites-header h1 {
 	margin-bottom: 50px;
 }
-#projects .all-projects {
+#suites .opcao-suite {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-#projects .project-item {
+#suites .suite-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -373,7 +373,7 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-#projects .project-info {
+#suites .suite-info {
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
@@ -384,25 +384,25 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
-#projects .project-info h1 {
+#suites .suite-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
 }
-#projects .project-info h2 {
+#suites .suite-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
-#projects .project-info p {
+#suites .suite-info p {
 	color: white;
 }
-#projects .project-img {
+#suites .suite-img {
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
 }
-#projects .project-img:after {
+#suites .suite-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -412,51 +412,51 @@ p {
 	/*background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);*/ /*deixa a imagem das suites escura*/
 	opacity: 0.7;
 }
-#projects .project-img img {
+#suites .suite-img img {
 	transition: 0.3s ease transform;
 }
-#projects .project-item:hover .project-img img {
+#suites .suite-item:hover .suite-img img {
 	transform: scale(1.1);
 }
-/* End Projects section */
+/* fim sessão suites*/
 
-/* About Section */
-#about .about {
+/* cardapio Section */
+#cardapio .cardapio {
 	flex-direction: column-reverse;
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
 }
-#about .col-left {
+#cardapio .colu-esquerda {
 	width: 250px;
 	height: 360px;
 }
-#about .col-right {
+#cardapio .colu-direita {
 	width: 100%;
 }
-#about .col-right h2 {
+#cardapio .colu-direita h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
 }
-#about .col-right p {
+#cardapio .colu-direita p {
 	margin-bottom: 20px;
 }
-#about .col-right .cta {
+#cardapio .colu-direita .cta {
 	color: black;
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
 }
-#about .col-left .about-img {
+#cardapio .colu-esquerda .cardapio-img {
 	height: 100%;
 	width: 100%;
 	position: relative;
 	border: 10px solid white;
 }
-#about .col-left .about-img::after {
+#cardapio .colu-esquerda .cardapio-img::after {
 	content: '';
 	position: absolute;
 	left: -33px;
@@ -466,7 +466,7 @@ p {
 	border: 7px solid crimson;
 	z-index: -1;
 }
-/* End About Section */
+/* fim sessão cardapio */
 
 /* contact Section */
 #contato .contact {
@@ -598,64 +598,64 @@ p {
 		font-size: 6rem;
 	}
 
-	/* Hero */
-	#hero h1 {
+	/* inicio */
+	#inicio h1 {
 		font-size: 7rem;
 	}
-	/* End Hero */
+	/* fim inicio */
 
-	/* Services Section */
-	#services .service-bottom .service-item {
+	/* sessão servicos */
+	#servicos .servicos-bottom .servicos-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-	/* End Services Section */
+	/* fim sessão servicos */
 
-	/* Project */
-	#projects .project-item {
+	/* suites */
+	#suites .suite-item {
 		flex-direction: row;
 	}
-	#projects .project-item:nth-child(even) {
+	#suites .suite-item:nth-child(even) {
 		flex-direction: row-reverse;
 	}
-	#projects .project-item {
+	#suites .suite-item {
 		height: 400px;
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
 	}
-	#projects .all-projects .project-info {
+	#suites .opcao-suite .suite-info {
 		height: 100%;
 	}
-	#projects .all-projects .project-img {
+	#suites .opcao-suite .suite-img {
 		height: 100%;
 	}
-	/* End Project */
+	/* fim suites */
 
-	/* About */
-	#about .about {
+	/* cardapio */
+	#cardapio .cardapio {
 		flex-direction: row;
 	}
-	#about .col-left {
+	#cardapio .colu-esquerda {
 		width: 600px;
 		height: 400px;
 		padding-left: 60px;
 	}
-	#about .about .col-left .about-img::after {
+	#cardapio .cardapio .colu-esquerda .cardapio-img::after {
 		left: -45px;
 		top: 34px;
 		height: 98%;
 		width: 98%;
 		border: 10px solid crimson;
 	}
-	#about .col-right {
+	#cardapio .colu-direita {
 		text-align: left;
 		padding: 30px;
 	}
-	#about .col-right h1 {
+	#cardapio .colu-direita h1 {
 		text-align: left;
 	}
-	/* End About */
+	/* fim cardapio */
 
 	/* contact  */
 	#contato .contact {
@@ -718,7 +718,7 @@ p {
 	}
 	/* End header */
 
-	#services .service-bottom .service-item {
+	#servicos .servicos-bottom .servicos-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
