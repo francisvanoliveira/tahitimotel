@@ -554,6 +554,13 @@ p {
 }
 /* End Footer */
 
+.dev a{
+	text-decoration: none;
+    color: white;
+    margin: 50px auto;
+    text-align: center;
+}
+
 /* Keyframes */
 @keyframes hamburger_puls {
 	0% {
