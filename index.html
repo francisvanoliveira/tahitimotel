@@ -284,7 +284,7 @@
             <h2>contato@tahitimotel.com.br</h2>
           </div>
         </div>
-        <div class="contact-item">
+        <div class="contact-item local">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
           <div class="contact-info">
             <h1>Endereço</h1>
@@ -318,6 +318,19 @@
   </section>
   <!-- Fim footer -->
 
+  <div id="modal-localizacao" class="modal-container mostrar">
+    <div class="modal">
+      <button class="fechar">x</button>
+      <h1>Localização</h1>
+      <h3>Venha ao encontro de novas experiências</h3>
+      <iframe class="mapagoogle" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0570013535894!2d-60.078938184650745!3d-3.0794581410806208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1019ade9f12b%3A0xb11f39c7c3ac93a8!2sTahiti%20Motel!5e0!3m2!1spt-BR!2sbr!4v1622051766399!5m2!1spt-BR!2sbr" width="900" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <h3><i class="fa fa-map-marker"></i> Estrada da Ponta Negra, 4919, Ponta Negra, Manaus-AM 69037-000</h3>
+      <h3><i class="fa fa-phone"></i> Telefone: (92)3030-8080</h3>
+      <h3><i class="fab fa-whatsapp"></i> WhatsApp: (92) 98484-9898</h3>
+      <h3><i class="far fa-envelope"></i> E-mail: contato@tahitimotel.com.br</h3>
+    </div>
+  </div>
+
   <a href="https://api.whatsapp.com/send?phone=5592981756235" target="_blank" id="link-whatsapp">
     <i class="fab fa-whatsapp"></i>
   </a>
@@ -332,6 +345,8 @@
       <button class="cookies-save">Salvar e Continuar</button>
     </div>
   </div>
+
+  <script src="./localiza.js"></script>
   <script src="./cookies.js"></script>
   <script src="./app.js"></script>
 </body>

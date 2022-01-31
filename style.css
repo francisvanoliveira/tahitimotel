@@ -555,6 +555,7 @@ p {
 }
 /* End Footer */
 
+/* link flutuante whastapp*/
 #link-whatsapp {
     position:fixed;
     width:60px;
@@ -574,6 +575,69 @@ p {
 #link-whatsapp>i {
     margin-top:15px
 }
+
+/* fim link flutuante whastapp*/
+
+/* modal localizacao*/
+
+.modal-container {
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, .5);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2000;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-container.mostrar {
+	display: flex;
+}
+
+.modal {
+	background: white;
+	width: 80%;
+	min-width: 330px;
+	padding: 40px;
+	border-radius: 5px;
+	position: relative;
+}
+
+@keyframes modal {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -60px, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+}
+
+.mostrar .modal {
+	animation: modal .4s;
+}
+
+.fechar {
+	position: absolute;
+	font-size: 1.2em;
+	top: -20px;
+	right: -20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 4px solid white;
+	background: #44505E;
+	color: white;
+	font-family: Montserrat;
+	cursor: pointer;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+}
+
+/* fim modal localizacao*/
 
 .dev a{
 	text-decoration: none;
