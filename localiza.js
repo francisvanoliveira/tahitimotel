@@ -1,10 +1,14 @@
-function inicaModal(modalID){
+function iniciaModal(modalID) {
     const modal = document.getElementById(modalID);
     modal.classList.add('mostrar');
+    modal.addEventListener('click', (e) => {
+        if(e.target.id == modalID || e.target.className == 'fechar'){
+            modal.classList.remove('mostrar');
+        }
+    });
 }
 
-const local = document.querySelector('.local');
-local.addEventListener('click', () => inicaModal('modal-localizacao'));
+const loca = document.querySelector('.local');
+loca.addEventListener('click', () => iniciaModal('modal-localizacao'));
 
 
-<script src="./localiza.js"></script>
