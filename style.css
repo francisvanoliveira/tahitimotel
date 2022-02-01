@@ -599,7 +599,7 @@ p {
 
 .modal {
 	background: white;
-	width: 80%;
+	width: 70%;
 	min-width: 330px;
 	text-align: center;
 	padding: 40px;
@@ -656,7 +656,7 @@ p {
 }
 
 .locale {
-	margin-top: 20px;
+	margin-top: 10px;
     padding: 10px 10px;
     text-align: center;
     background-size: cover;
@@ -728,6 +728,28 @@ p {
 }
 /* End Keyframes */
 
+@media only screen and (min-width: 66px) {	
+
+	.section-title {
+		font-size: 4rem;
+	}
+
+	.mapagoogle {
+		width: 250px;
+        height: 300px;
+    }
+
+	.modal h1 {
+		font-size: 2rem;
+	}
+
+	.modal h3 {
+		font-size: 1.3rem;
+	}
+	
+}
+
+
 @media only screen and (min-width: 600px){
 
 	.cta {
@@ -735,7 +757,7 @@ p {
 		padding: 10px 50px;
 	}
 
-	h1.section-title {
+	.section-title {
 		font-size: 4rem;
 	}
 
@@ -766,7 +788,7 @@ p {
 		font-size: 2.5rem;
 		padding: 20px 60px;
 	}
-	h1.section-title {
+	.section-title {
 		font-size: 6rem;
 	}
 
@@ -837,6 +859,15 @@ p {
 		justify-content: center;
 		min-width: 20vh;
 	}
+
+	#contato .contact h1 {
+		font-size: 2rem;
+	}
+
+	#contato .contact h2 {
+		font-size: 1.2rem;
+	}
+
 	#contato .contact-items {
 		width: 100%;
 		display: flex;
@@ -845,13 +876,13 @@ p {
 		margin: 0;
 	}
 	#contato .contact-item {
-		width: 30%;
-		margin: 0;
+		width: 35%;
+		margin: 5px;
 		flex-direction: row;
 	}
 	#contato .contact-item .icon {
-		height: 100px;
-		width: 100px;
+		height: 80px;
+		width: 80px;
 	}
 	#contato .contact-item .icon img {
 		object-fit: contain;
@@ -861,6 +892,8 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
+
+	
 	/* End contact  */
 
 	.mapagoogle {
