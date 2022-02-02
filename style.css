@@ -455,7 +455,7 @@ p {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid white;
+	
 }
 #cardapio .colu-esquerda .cardapio-img::after {
 	content: '';
@@ -860,9 +860,9 @@ p {
 		min-width: 20vh;
 	}
 
-	#contato .contact h1 {
+	/*#contato .contact h1 {
 		font-size: 2rem;
-	}
+	}*/
 
 	#contato .contact h2 {
 		font-size: 1.2rem;
