@@ -1,4 +1,18 @@
-function cookies(functions) {
+const cookieContainer = document.querySelector(".cookie-container");
+const cookieButton = document.querySelector(".cookie-btn");
+
+cookieButton.addEventListener("click", () => {
+  cookieContainer.classList.remove("active");
+  localStorage.setItem("cookieBannerDisplayed", "true");
+});
+
+setTimeout(() => {
+  if (!localStorage.getItem("cookieBannerDisplayed")) {
+    cookieContainer.classList.add("active");
+  }
+}, 2000);
+
+/*function cookies(functions) {
     const container = document.querySelector('.cookies-container');
     const save = document.querySelector('.cookies-save');
     if (!container || !save) return null;
@@ -37,4 +51,4 @@ function cookies(functions) {
   cookies({
     marketing,
     analytics,
-  });
+  });*/
