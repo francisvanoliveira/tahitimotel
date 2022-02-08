@@ -1,6 +1,5 @@
 # Tahiti Motel
 
-:construction: Projeto em construção... :construction:
 Site Tahiti Motel Manaus.
 
 - [x] Projeto inicial
@@ -13,12 +12,14 @@ Site Tahiti Motel Manaus.
     - Aprovação e liberação para prossegir com o projeto.
 - [x] Desenvolvimento
     - Iniciado o desenvolvimento da versão final
-- [ ] Apresentação final
-- [ ] Entregue
+- [x] Apresentação final
+- [x] Entregue
+
+Projeto recebendo atualizações de melhorias.
 
 ## 🚀 Objetivo
 
-Criar um site para divulgar o empreendimento, com imagens, endereço e contatos. E que o site possibilitasse um meio de comunicação dos clientes para informações e possíveis reservas.
+Criar um site para divulgar o empreendimento, com imagens, endereço e contatos. 
 
 ## :open_book: Tarefas
 
