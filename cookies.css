@@ -3,12 +3,23 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-p {
+
+
+.btn {
+  width: 100%;
+  text-align: center;
+}
+
+.cookie-container p {
   margin: 24px 0;
   line-height: 2;
+  color: #f5f6fa;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .wrapper {
@@ -24,7 +35,7 @@ p {
   color: #f5f6fa;
   padding: 0 32px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-
+  z-index: 3000;
   transition: 400ms;
 }
 
@@ -33,11 +44,13 @@ p {
 }
 
 .cookie-container a {
-  color: #f5f6fa;
+  color: crimson;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .cookie-btn {
-  background: #e84118;
+  background: crimson;
   border: 0;
   color: #f5f6fa;
   padding: 12px 48px;
