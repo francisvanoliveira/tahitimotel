@@ -374,6 +374,24 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
+
+/*borta arredondada*/
+#suites .bordadir{
+	border-radius: 5px 0px 0px 0px;
+}
+
+#suites .bordaEsq{
+	border-radius: 0px 5px 0px 0px;
+}
+
+#suites .bordadirfim{
+	border-radius: 0px 0px 0px 5px;
+}
+
+#suites .bordaEsqfim{
+	border-radius: 0px 0px 5px 0px;
+}
+/*fim borta arredondada*/
 #suites .suite-info {
 	padding: 30px;
 	flex-basis: 50%;
