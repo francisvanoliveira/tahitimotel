@@ -1002,12 +1002,12 @@ p {
     }
 
 	.box{
-		width: 500px;
-		height: 400px;
+		width: 800px;
+		height: 480px;
 	}
 	.box-image img{
-		width: 500px;
-		height: 400px;
+		width: 800px;
+		height: 480px;
 	}
 }
 /* End  Media Query For Desktop */
