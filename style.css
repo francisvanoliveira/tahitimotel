@@ -439,10 +439,35 @@ p {
 }
 /* fim sessão suites*/
 
-/* Carossel fotos suites*/
+/* slide fotos suites*/
 
+.box{
+	width: 600px;
+	height: 500px;
+	margin: auto;
+	position: relative;
+}
 
-/* Fim Carossel fotos suites*/
+.box-image img{
+	position: absolute;
+	width: 600px;
+	height: 500px;
+	border-radius: 4px;
+	animation: anima;
+	animation-duration: 800ms;
+}
+
+@keyframes anima {
+	from{
+		transform: translate(-50px,00);
+	}
+
+	to{
+		transform: translate(0px,00);
+	}
+}
+
+/* Fim slide fotos suites*/
 
 /* cardapio Section */
 #cardapio .cardapio {
@@ -769,6 +794,15 @@ p {
 	.modal h3 {
 		font-size: 1.3rem;
 	}
+
+	.box{
+		width: 250px;
+		height: 500px;
+	}
+	.box-image img{
+		width: 250px;
+		height: 500px;
+	}
 	
 }
 
@@ -801,7 +835,6 @@ p {
         width: 400px;
         height: 300px;
     }
-	
 
 }
 

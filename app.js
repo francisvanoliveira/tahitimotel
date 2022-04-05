@@ -89,3 +89,40 @@ setTimeout(() => {
 }, 2000);
 
 //FIM SCRIPT PARA COOKIES
+
+//INICIO SCRIPT SLIDE
+
+var interval = 0;
+var maxSlider = document.querySelectorAll('.box-image').length - 1;
+
+sumir();
+
+function sumir(){
+  
+  let img = document.querySelectorAll('.box-image img');
+
+  img[1].style.display = 'none';
+  img[2].style.display = 'none';
+}
+
+acao();
+
+function acao(){
+
+  let img = document.querySelectorAll('.box-image img');
+
+  setInterval(function(){
+
+    img[interval].style.display =  'none';
+    interval++;
+
+    if(interval > maxSlider){
+      interval = 0;
+    }
+
+    img[interval].style.display = 'block';
+
+  },3000)
+}
+
+//FIM SCRIPT SLIDE
