@@ -443,7 +443,7 @@ p {
 
 .box{
 	width: 600px;
-	height: 500px;
+	height: 400px;
 	margin: auto;
 	position: relative;
 }
@@ -451,15 +451,19 @@ p {
 .box-image img{
 	position: absolute;
 	width: 600px;
-	height: 500px;
+	height: 400px;
 	border-radius: 4px;
 	animation: anima;
 	animation-duration: 800ms;
 }
 
+.tituloSlide{
+	margin-bottom: 30px;
+}
+
 @keyframes anima {
 	from{
-		transform: translate(-50px,00);
+		transform: translate(-20px,00);
 	}
 
 	to{
@@ -797,13 +801,16 @@ p {
 
 	.box{
 		width: 250px;
-		height: 500px;
+		height: 400px;
 	}
 	.box-image img{
 		width: 250px;
-		height: 500px;
+		height: 400px;
 	}
 	
+	.footer h2{
+		text-align: center;
+	}
 }
 
 
@@ -993,5 +1000,14 @@ p {
         width: 900px;
         height: 350px;
     }
+
+	.box{
+		width: 500px;
+		height: 400px;
+	}
+	.box-image img{
+		width: 500px;
+		height: 400px;
+	}
 }
 /* End  Media Query For Desktop */

@@ -92,37 +92,351 @@ setTimeout(() => {
 
 //INICIO SCRIPT SLIDE
 
-var interval = 0;
-var maxSlider = document.querySelectorAll('.box-image').length - 1;
+function slideTahiti(){
 
-sumir();
+  var interval = 0;
+  var maxSlider = document.querySelectorAll('.slideTahiti').length - 1;
 
-function sumir(){
+  sumir();
+
+  function sumir(){
   
-  let img = document.querySelectorAll('.box-image img');
+    let img = document.querySelectorAll('.slideTahiti img');
 
-  img[1].style.display = 'none';
-  img[2].style.display = 'none';
+    img[1].style.display = 'none';
+    img[2].style.display = 'none';
+
+  }
+
+  acao();
+
+  function acao(){
+
+    let img = document.querySelectorAll('.slideTahiti img');
+
+    setInterval(function(){
+
+      img[interval].style.display =  'none';
+      interval++;
+
+      if(interval > maxSlider){
+        interval = 0;
+      }
+
+      img[interval].style.display = 'block';
+
+    },3000)
+  }
 }
 
-acao();
+function slideNiauFet(){
+  var interval = 0;
+  var maxSlider = document.querySelectorAll('.slideNiauFet').length - 1;
 
-function acao(){
+  sumir();
 
-  let img = document.querySelectorAll('.box-image img');
+  function sumir(){
+  
+    let img = document.querySelectorAll('.slideNiauFet img');
 
-  setInterval(function(){
+    img[1].style.display = 'none';
+    img[2].style.display = 'none';
+    img[3].style.display = 'none';
+    img[4].style.display = 'none';
 
-    img[interval].style.display =  'none';
-    interval++;
+  }
 
-    if(interval > maxSlider){
-      interval = 0;
-    }
+  acao();
 
-    img[interval].style.display = 'block';
+  function acao(){
 
-  },3000)
+    let img = document.querySelectorAll('.slideNiauFet img');
+
+    setInterval(function(){
+
+      img[interval].style.display =  'none';
+      interval++;
+
+      if(interval > maxSlider){
+        interval = 0;
+      }
+
+      img[interval].style.display = 'block';
+
+    },3000)
+  }
 }
+
+function slideNiau(){
+  var interval = 0;
+  var maxSlider = document.querySelectorAll('.slideNiau').length - 1;
+
+  sumir();
+
+  function sumir(){
+  
+    let img = document.querySelectorAll('.slideNiau img');
+
+    img[1].style.display = 'none';
+    img[2].style.display = 'none';
+    img[3].style.display = 'none';
+    img[4].style.display = 'none';
+    img[5].style.display = 'none';
+
+  }
+
+  acao();
+
+  function acao(){
+
+    let img = document.querySelectorAll('.slideNiau img');
+
+    setInterval(function(){
+
+      img[interval].style.display =  'none';
+      interval++;
+
+      if(interval > maxSlider){
+        interval = 0;
+      }
+
+      img[interval].style.display = 'block';
+
+    },3000)
+  }
+}
+
+function slideBora(){
+  var interval = 0;
+  var maxSlider = document.querySelectorAll('.slideBora').length - 1;
+
+  sumir();
+
+  function sumir(){
+  
+    let img = document.querySelectorAll('.slideBora img');
+
+    img[1].style.display = 'none';
+    img[2].style.display = 'none';
+    img[3].style.display = 'none';
+
+  }
+
+  acao();
+
+  function acao(){
+
+    let img = document.querySelectorAll('.slideBora img');
+
+    setInterval(function(){
+
+      img[interval].style.display =  'none';
+      interval++;
+
+      if(interval > maxSlider){
+        interval = 0;
+      }
+
+      img[interval].style.display = 'block';
+
+    },3000)
+  }
+}
+
+function slideManihiFet(){
+  var interval = 0;
+  var maxSlider = document.querySelectorAll('.slideManihiFet').length - 1;
+
+  sumir();
+
+  function sumir(){
+  
+    let img = document.querySelectorAll('.slideManihiFet img');
+
+    img[1].style.display = 'none';
+    img[2].style.display = 'none';
+    img[3].style.display = 'none';
+
+  }
+
+  acao();
+
+  function acao(){
+
+    let img = document.querySelectorAll('.slideManihiFet img');
+
+    setInterval(function(){
+
+      img[interval].style.display =  'none';
+      interval++;
+
+      if(interval > maxSlider){
+        interval = 0;
+      }
+
+      img[interval].style.display = 'block';
+
+    },3000)
+  }
+}
+
+function slideManihi(){
+  var interval = 0;
+  var maxSlider = document.querySelectorAll('.slideManihi').length - 1;
+
+  sumir();
+
+  function sumir(){
+  
+    let img = document.querySelectorAll('.slideManihi img');
+
+    img[1].style.display = 'none';
+    img[2].style.display = 'none';
+    img[3].style.display = 'none';
+    img[4].style.display = 'none';
+    img[5].style.display = 'none';
+    img[6].style.display = 'none';
+
+  }
+
+  acao();
+
+  function acao(){
+
+    let img = document.querySelectorAll('.slideManihi img');
+
+    setInterval(function(){
+
+      img[interval].style.display =  'none';
+      interval++;
+
+      if(interval > maxSlider){
+        interval = 0;
+      }
+
+      img[interval].style.display = 'block';
+
+    },3000)
+  }
+}
+
+function slidePapeete(){
+  var interval = 0;
+  var maxSlider = document.querySelectorAll('.slidePapeete').length - 1;
+
+  sumir();
+
+  function sumir(){
+  
+    let img = document.querySelectorAll('.slidePapeete img');
+
+    img[1].style.display = 'none';
+    img[2].style.display = 'none';
+
+  }
+
+  acao();
+
+  function acao(){
+
+    let img = document.querySelectorAll('.slidePapeete img');
+
+    setInterval(function(){
+
+      img[interval].style.display =  'none';
+      interval++;
+
+      if(interval > maxSlider){
+        interval = 0;
+      }
+
+      img[interval].style.display = 'block';
+
+    },3000)
+  }
+}
+
+function slideMoorea(){
+  var interval = 0;
+  var maxSlider = document.querySelectorAll('.slideMoorea').length - 1;
+
+  sumir();
+
+  function sumir(){
+  
+    let img = document.querySelectorAll('.slideMoorea img');
+
+    img[1].style.display = 'none';
+    img[2].style.display = 'none';
+    img[3].style.display = 'none';
+    img[4].style.display = 'none';
+
+  }
+
+  acao();
+
+  function acao(){
+
+    let img = document.querySelectorAll('.slideMoorea img');
+
+    setInterval(function(){
+
+      img[interval].style.display =  'none';
+      interval++;
+
+      if(interval > maxSlider){
+        interval = 0;
+      }
+
+      img[interval].style.display = 'block';
+
+    },3000)
+  }
+}
+
+function slideTikehau(){
+  var interval = 0;
+  var maxSlider = document.querySelectorAll('.slideTikehau').length - 1;
+
+  sumir();
+
+  function sumir(){
+  
+    let img = document.querySelectorAll('.slideTikehau img');
+
+    img[1].style.display = 'none';
+
+  }
+
+  acao();
+
+  function acao(){
+
+    let img = document.querySelectorAll('.slideTikehau img');
+
+    setInterval(function(){
+
+      img[interval].style.display =  'none';
+      interval++;
+
+      if(interval > maxSlider){
+        interval = 0;
+      }
+
+      img[interval].style.display = 'block';
+
+    },3000)
+  }
+}
+
+slideTahiti();
+slideNiauFet();
+slideNiau();
+slideBora();
+slideManihiFet();
+slideManihi();
+slidePapeete();
+slideMoorea();
+slideTikehau();
 
 //FIM SCRIPT SLIDE
