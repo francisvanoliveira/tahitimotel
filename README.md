@@ -44,8 +44,10 @@ Projeto Site Tahiti Motel desenvolvido por:
 
 ## ⚙️ Softwares utilizados
 
-* Ubuntu no WSL
+* Windows
 * VS Code
+* Chrome
+* Git/Github
 
 ## Ícones
 
