@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://img.shields.io/badge/STATUS-FINALIZADO-green"/>
+</p>
+
 # Tahiti Motel
 
 Site Tahiti Motel Manaus.
@@ -15,8 +19,6 @@ Site Tahiti Motel Manaus.
 - [x] Apresentação final
 - [x] Entregue
 
-Projeto recebendo atualizações de melhorias.
-
 ## 🚀 Objetivo
 
 Criar um site para divulgar o empreendimento, com imagens, endereço e contatos. 
@@ -27,7 +29,7 @@ O controle das tarefas desse projeto será realizado no GitHub
 
 ## ✒️ Autor
 
-Projeto Site Tahiti Motel desenvolvido por:
+Projeto Site Tahiti Motel desenvolvido em parceria:
 
 * Francisvan Oliveira - Desenvolvedor
     - Instagram <a href="https://www.instagram.com/francisvan_oliveira/" target="_blank">@francisvan_oliveira</a>
