@@ -43,6 +43,7 @@ Projeto Site Tahiti Motel desenvolvido em parceria:
 * HTML
 * CSS
 * JS
+* PHP
 
 ## ⚙️ Softwares utilizados
 
