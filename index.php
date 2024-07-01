@@ -1,3 +1,5 @@
+<?php include('config.php'); ?>
+
 <!DOCTYPE html> 
 <!--Site Tahiti Motel v 2022 1.6.36
 Desenvolvedor: Francisvan Oliveira Pessoa
@@ -9,8 +11,8 @@ Empresa: GR7 Tecnologia
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="oadRao9DapZYZ9xgEquhOCE0XMGmR_8n0Jr5wNmq3Os" />
-  <link rel="icon" type="image/png" sizes="32x32" href="icone/favicon-16x16.png" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo INCLUDE_PATH; ?>icone/favicon-16x16.png" />
+  <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>style.css">
   <title>Tahiti Motel</title>
 
   <!-- SEO -->
@@ -59,7 +61,7 @@ Empresa: GR7 Tecnologia
       <div class="nav-bar">
         <div class="logo">
           <a href="#inicio">
-            <img src="img/logo_tahiti.png" alt="Tahiti Motel">
+            <img src="<?php echo INCLUDE_PATH; ?>img/logo_tahiti.png" alt="Tahiti Motel">
           </a>
         </div>
         <div class="brand">
@@ -151,7 +153,7 @@ Empresa: GR7 Tecnologia
             <p>**Preço sujeito a alteração, sempre confirme antes na recepção.</p>
           </div>
           <div class="suite-img bordaEsq imgTahiti">
-            <img src="./img/suites/tahiti.jpeg" alt="Tahiti">
+            <img src="<?php echo INCLUDE_PATH; ?>img/suites/tahiti.jpeg" alt="Tahiti">
           </div>
         </div>
         <div class="suite-item">
@@ -163,7 +165,7 @@ Empresa: GR7 Tecnologia
             <p>**Preço sujeito a alteração, sempre confirme antes na recepção.</p>
           </div>
           <div class="suite-img imgNiauFet">
-            <img src="./img/suites/niau_fetiche.jpeg" alt="Niau Fetiche">
+            <img src="<?php echo INCLUDE_PATH; ?>img/suites/niau_fetiche.jpeg" alt="Niau Fetiche">
           </div>
         </div>
         <div class="suite-item">
@@ -175,7 +177,7 @@ Empresa: GR7 Tecnologia
             <p>**Preço sujeito a alteração, sempre confirme antes na recepção.</p>
           </div>
           <div class="suite-img imgNiau">
-            <img src="./img/suites/niau.jpeg" alt="Niau">
+            <img src="<?php echo INCLUDE_PATH; ?>img/suites/niau.jpeg" alt="Niau">
           </div>
         </div>
         <div class="suite-item">
@@ -187,7 +189,7 @@ Empresa: GR7 Tecnologia
             <p>**Preço sujeito a alteração, sempre confirme antes na recepção.</p>
           </div>
           <div class="suite-img imgBora">
-            <img src="./img/suites/bora-bora.jpeg" alt="Bora-bora">
+            <img src="<?php echo INCLUDE_PATH; ?>img/suites/bora-bora.jpeg" alt="Bora-bora">
           </div>
         </div>
         <div class="suite-item">
@@ -199,7 +201,7 @@ Empresa: GR7 Tecnologia
             <p>**Preço sujeito a alteração, sempre confirme antes na recepção.</p>
           </div>
           <div class="suite-img imgManiniFet">
-            <img src="./img/suites/manini_fetiche.jpeg" alt="Mini Fetiche">
+            <img src="<?php echo INCLUDE_PATH; ?>img/suites/manini_fetiche.jpeg" alt="Mini Fetiche">
           </div>
         </div>
         <div class="suite-item">
@@ -211,7 +213,7 @@ Empresa: GR7 Tecnologia
             <p>**Preço sujeito a alteração, sempre confirme antes na recepção.</p>
           </div>
           <div class="suite-img imgManini">
-            <img src="./img/suites/manini.jpeg" alt="Mini Fetiche">
+            <img src="<?php echo INCLUDE_PATH; ?>img/suites/manini.jpeg" alt="Mini Fetiche">
           </div>
         </div>
         <div class="suite-item">
@@ -223,7 +225,7 @@ Empresa: GR7 Tecnologia
             <p>**Preço sujeito a alteração, sempre confirme antes na recepção.</p>
           </div>
           <div class="suite-img imgPapeete">
-            <img src="./img/suites/papeete.jpeg" alt="Pappete">
+            <img src="<?php echo INCLUDE_PATH; ?>img/suites/papeete.jpeg" alt="Pappete">
           </div>
         </div>
         <div class="suite-item">
@@ -235,7 +237,7 @@ Empresa: GR7 Tecnologia
             <p>**Preço sujeito a alteração, sempre confirme antes na recepção.</p>
           </div>
           <div class="suite-img imgMoorea">
-            <img src="./img/suites/moorea.jpeg" alt="Moorea">
+            <img src="<?php echo INCLUDE_PATH; ?>img/suites/moorea.jpeg" alt="Moorea">
           </div>
         </div>
         <div class="suite-item">
@@ -247,7 +249,7 @@ Empresa: GR7 Tecnologia
             <p>**Preço sujeito a alteração, sempre confirme antes na recepção.</p>
           </div>
           <div class="suite-img bordaEsqfim imgTikehau">
-            <img src="./img/suites/tikehau.jpeg" alt="Tikehau">
+            <img src="<?php echo INCLUDE_PATH; ?>img/suites/tikehau.jpeg" alt="Tikehau">
           </div>
         </div>
       </div>
@@ -261,7 +263,7 @@ Empresa: GR7 Tecnologia
     <div class="cardapio container">
       <div class="colu-esquerda">
         <div class="cardapio-img">
-          <img src="./img/cardapio.jpg" alt="Cardápio Tahiti Motel">
+          <img src="<?php echo INCLUDE_PATH; ?>img/cardapio.jpg" alt="Cardápio Tahiti Motel">
         </div>
       </div>
       <div class="colu-direita">
@@ -271,7 +273,7 @@ Empresa: GR7 Tecnologia
           Escolhemos os melhores ingrediendes, ótimas receitas e boas opções de drinks, combinação perfeita para esse momento ser apaixonante com quem você ama.
 
         </p>
-        <a href="cardapio.pdf" target="_blank" class="cta">Veja Aqui</a>
+        <a href="<?php echo INCLUDE_PATH; ?>cardapio.pdf" target="_blank" class="cta">Veja Aqui</a>
       </div>
     </div>
   </section>
@@ -353,9 +355,9 @@ Empresa: GR7 Tecnologia
       <button class="fechar">x</button>
       <h2 class="tituloSlide">Fotos Suíte Tahiti</h2>
       <div class="box">
-        <div class="box-image slideTahiti"><img src="img/suites/tahiti.jpeg" alt=""></div>
-        <div class="box-image slideTahiti"><img src="img/suites/tahiti2.jpeg" alt=""></div>
-        <div class="box-image slideTahiti"><img src="img/suites/tahiti3.jpeg" alt=""></div>
+        <div class="box-image slideTahiti"><img src="<?php echo INCLUDE_PATH; ?>img/suites/tahiti.jpeg" alt=""></div>
+        <div class="box-image slideTahiti"><img src="<?php echo INCLUDE_PATH; ?>img/suites/tahiti2.jpeg" alt=""></div>
+        <div class="box-image slideTahiti"><img src="<?php echo INCLUDE_PATH; ?>img/suites/tahiti3.jpeg" alt=""></div>
       </div>
     </div>
   </div>
@@ -365,11 +367,11 @@ Empresa: GR7 Tecnologia
       <button class="fechar">x</button>
       <h2 class="tituloSlide">Fotos Suíte Niau Fetiche</h2>
       <div class="box">
-        <div class="box-image slideNiauFet"><img src="img/suites/niau_fetiche/niau_fetiche.jpeg" alt=""></div>
-        <div class="box-image slideNiauFet"><img src="img/suites/niau_fetiche/niau_fetiche1.jpeg" alt=""></div>
-        <div class="box-image slideNiauFet"><img src="img/suites/niau_fetiche/niau_fetiche2.jpeg" alt=""></div>
-        <div class="box-image slideNiauFet"><img src="img/suites/niau_fetiche/niau_fetiche3.jpeg" alt=""></div>
-        <div class="box-image slideNiauFet"><img src="img/suites/niau_fetiche/niau_fetiche4.jpeg" alt=""></div>
+        <div class="box-image slideNiauFet"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau_fetiche/niau_fetiche.jpeg" alt=""></div>
+        <div class="box-image slideNiauFet"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau_fetiche/niau_fetiche1.jpeg" alt=""></div>
+        <div class="box-image slideNiauFet"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau_fetiche/niau_fetiche2.jpeg" alt=""></div>
+        <div class="box-image slideNiauFet"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau_fetiche/niau_fetiche3.jpeg" alt=""></div>
+        <div class="box-image slideNiauFet"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau_fetiche/niau_fetiche4.jpeg" alt=""></div>
       </div>     
     </div>
   </div>
@@ -379,12 +381,12 @@ Empresa: GR7 Tecnologia
       <button class="fechar">x</button>
       <h2 class="tituloSlide">Fotos Suíte Niau</h2>
       <div class="box">
-        <div class="box-image slideNiau"><img src="img/suites/niau/niau.jpeg" alt=""></div>
-        <div class="box-image slideNiau"><img src="img/suites/niau/niau1.jpeg" alt=""></div>
-        <div class="box-image slideNiau"><img src="img/suites/niau/niau2.jpeg" alt=""></div>
-        <div class="box-image slideNiau"><img src="img/suites/niau/niau3.jpeg" alt=""></div>
-        <div class="box-image slideNiau"><img src="img/suites/niau/niau4.jpeg" alt=""></div>
-        <div class="box-image slideNiau"><img src="img/suites/niau/niau5.jpeg" alt=""></div>
+        <div class="box-image slideNiau"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau/niau.jpeg" alt=""></div>
+        <div class="box-image slideNiau"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau/niau1.jpeg" alt=""></div>
+        <div class="box-image slideNiau"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau/niau2.jpeg" alt=""></div>
+        <div class="box-image slideNiau"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau/niau3.jpeg" alt=""></div>
+        <div class="box-image slideNiau"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau/niau4.jpeg" alt=""></div>
+        <div class="box-image slideNiau"><img src="<?php echo INCLUDE_PATH; ?>img/suites/niau/niau5.jpeg" alt=""></div>
       </div>      
     </div>
   </div>
@@ -394,10 +396,10 @@ Empresa: GR7 Tecnologia
       <button class="fechar">x</button>
       <h2 class="tituloSlide">Fotos Suíte Bora-Bora</h2>
       <div class="box">
-        <div class="box-image slideBora"><img src="img/suites/bora/bora.jpeg" alt=""></div>
-        <div class="box-image slideBora"><img src="img/suites/bora/bora1.jpeg" alt=""></div>
-        <div class="box-image slideBora"><img src="img/suites/bora/bora2.jpeg" alt=""></div>
-        <div class="box-image slideBora"><img src="img/suites/bora/bora3.jpeg" alt=""></div>
+        <div class="box-image slideBora"><img src="<?php echo INCLUDE_PATH; ?>img/suites/bora/bora.jpeg" alt=""></div>
+        <div class="box-image slideBora"><img src="<?php echo INCLUDE_PATH; ?>img/suites/bora/bora1.jpeg" alt=""></div>
+        <div class="box-image slideBora"><img src="<?php echo INCLUDE_PATH; ?>img/suites/bora/bora2.jpeg" alt=""></div>
+        <div class="box-image slideBora"><img src="<?php echo INCLUDE_PATH; ?>img/suites/bora/bora3.jpeg" alt=""></div>
       </div>        
     </div>
   </div>
@@ -407,10 +409,10 @@ Empresa: GR7 Tecnologia
       <button class="fechar">x</button>
       <h2 class="tituloSlide">Fotos Suíte Manihi Fetiche</h2>
       <div class="box">
-        <div class="box-image slideManihiFet"><img src="img/suites/manihi_fetiche/manihi_fetiche.jpeg" alt=""></div>
-        <div class="box-image slideManihiFet"><img src="img/suites/manihi_fetiche/manihi_fetiche1.jpeg" alt=""></div>
-        <div class="box-image slideManihiFet"><img src="img/suites/manihi_fetiche/manihi_fetiche2.jpeg" alt=""></div>
-        <div class="box-image slideManihiFet"><img src="img/suites/manihi_fetiche/manihi_fetiche3.jpeg" alt=""></div>
+        <div class="box-image slideManihiFet"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi_fetiche/manihi_fetiche.jpeg" alt=""></div>
+        <div class="box-image slideManihiFet"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi_fetiche/manihi_fetiche1.jpeg" alt=""></div>
+        <div class="box-image slideManihiFet"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi_fetiche/manihi_fetiche2.jpeg" alt=""></div>
+        <div class="box-image slideManihiFet"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi_fetiche/manihi_fetiche3.jpeg" alt=""></div>
       </div>
     </div>
   </div>
@@ -420,13 +422,13 @@ Empresa: GR7 Tecnologia
       <button class="fechar">x</button>
       <h2 class="tituloSlide">Fotos Suíte Manihi</h2>
       <div class="box">
-        <div class="box-image slideManihi"><img src="img/suites/manihi/manihi.jpeg" alt=""></div>
-        <div class="box-image slideManihi"><img src="img/suites/manihi/manihi1.jpeg" alt=""></div>
-        <div class="box-image slideManihi"><img src="img/suites/manihi/manihi2.jpeg" alt=""></div>
-        <div class="box-image slideManihi"><img src="img/suites/manihi/manihi3.jpeg" alt=""></div>
-        <div class="box-image slideManihi"><img src="img/suites/manihi/manihi4.jpeg" alt=""></div>
-        <div class="box-image slideManihi"><img src="img/suites/manihi/manihi5.jpeg" alt=""></div>
-        <div class="box-image slideManihi"><img src="img/suites/manihi/manihi6.jpeg" alt=""></div>
+        <div class="box-image slideManihi"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi/manihi.jpeg" alt=""></div>
+        <div class="box-image slideManihi"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi/manihi1.jpeg" alt=""></div>
+        <div class="box-image slideManihi"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi/manihi2.jpeg" alt=""></div>
+        <div class="box-image slideManihi"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi/manihi3.jpeg" alt=""></div>
+        <div class="box-image slideManihi"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi/manihi4.jpeg" alt=""></div>
+        <div class="box-image slideManihi"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi/manihi5.jpeg" alt=""></div>
+        <div class="box-image slideManihi"><img src="<?php echo INCLUDE_PATH; ?>img/suites/manihi/manihi6.jpeg" alt=""></div>
       </div>      
     </div>
   </div>
@@ -436,9 +438,9 @@ Empresa: GR7 Tecnologia
       <button class="fechar">x</button>
       <h2 class="tituloSlide">Fotos Suíte Papeete</h2>
       <div class="box">
-        <div class="box-image slidePapeete"><img src="img/suites/papeete/papeete.jpeg" alt=""></div>
-        <div class="box-image slidePapeete"><img src="img/suites/papeete/papeete2.jpeg" alt=""></div>
-        <div class="box-image slidePapeete"><img src="img/suites/papeete/papeete3.jpeg" alt=""></div>
+        <div class="box-image slidePapeete"><img src="<?php echo INCLUDE_PATH; ?>img/suites/papeete/papeete.jpeg" alt=""></div>
+        <div class="box-image slidePapeete"><img src="<?php echo INCLUDE_PATH; ?>img/suites/papeete/papeete2.jpeg" alt=""></div>
+        <div class="box-image slidePapeete"><img src="<?php echo INCLUDE_PATH; ?>img/suites/papeete/papeete3.jpeg" alt=""></div>
       </div>
     </div>
   </div>
@@ -448,11 +450,11 @@ Empresa: GR7 Tecnologia
       <button class="fechar">x</button>
       <h2 class="tituloSlide">Fotos Suíte Moorea</h2>
       <div class="box">
-        <div class="box-image slideMoorea"><img src="img/suites/moorea/moorea.jpeg" alt=""></div>
-        <div class="box-image slideMoorea"><img src="img/suites/moorea/moorea1.jpeg" alt=""></div>
-        <div class="box-image slideMoorea"><img src="img/suites/moorea/moorea2.jpeg" alt=""></div>
-        <div class="box-image slideMoorea"><img src="img/suites/moorea/moorea3.jpeg" alt=""></div>
-        <div class="box-image slideMoorea"><img src="img/suites/moorea/moorea4.jpeg" alt=""></div>
+        <div class="box-image slideMoorea"><img src="<?php echo INCLUDE_PATH; ?>img/suites/moorea/moorea.jpeg" alt=""></div>
+        <div class="box-image slideMoorea"><img src="<?php echo INCLUDE_PATH; ?>img/suites/moorea/moorea1.jpeg" alt=""></div>
+        <div class="box-image slideMoorea"><img src="<?php echo INCLUDE_PATH; ?>img/suites/moorea/moorea2.jpeg" alt=""></div>
+        <div class="box-image slideMoorea"><img src="<?php echo INCLUDE_PATH; ?>img/suites/moorea/moorea3.jpeg" alt=""></div>
+        <div class="box-image slideMoorea"><img src="<?php echo INCLUDE_PATH; ?>img/suites/moorea/moorea4.jpeg" alt=""></div>
       </div>
     </div>
   </div>
@@ -462,8 +464,8 @@ Empresa: GR7 Tecnologia
       <button class="fechar">x</button>
       <h2 class="tituloSlide">Fotos Suíte Tikehau</h2>
       <div class="box">
-        <div class="box-image slideTikehau"><img src="img/suites/tikehau/tikehau.jpeg" alt=""></div>
-        <div class="box-image slideTikehau"><img src="img/suites/tikehau/tikehau2.jpeg" alt=""></div>
+        <div class="box-image slideTikehau"><img src="<?php echo INCLUDE_PATH; ?>img/suites/tikehau/tikehau.jpeg" alt=""></div>
+        <div class="box-image slideTikehau"><img src="<?php echo INCLUDE_PATH; ?>img/suites/tikehau/tikehau2.jpeg" alt=""></div>
       </div>
     </div>
   </div>
@@ -476,7 +478,7 @@ Empresa: GR7 Tecnologia
   <div class="cookie-container">
     <p>
       Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com o Aviso de Privacidade.
-      <a href="./privacidade.html" target="_blank">Política de Privacidade</a> e <a href="./termodeuso.html" target="_blank">Termo de Uso</a>.
+      <a href="<?php echo INCLUDE_PATH; ?>privacidade.html" target="_blank">Política de Privacidade</a> e <a href="<?php echo INCLUDE_PATH; ?>termodeuso.html" target="_blank">Termo de Uso</a>.
     </p>
    
     <div class="btn">
@@ -486,7 +488,7 @@ Empresa: GR7 Tecnologia
     </div>
   </div>
   
-  <script src="./app.js"></script>
+  <script src="<?php echo INCLUDE_PATH; ?>app.js"></script>
 </body>
 
 </html>
